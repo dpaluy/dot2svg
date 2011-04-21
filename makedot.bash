@@ -16,8 +16,5 @@ export XSLT="xsltproc"
 # "(INPUT)" for the input file.
 export DOTML_XSLT="$XSLT (XSL) (INPUT)"
 
-# The directory for the output
-export OUTPUT_DIR=graph
-
 # Generates the SVG charts
 $DOTML_DIR/generate-svg-graphics.bash $1 $2
