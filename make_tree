@@ -1,0 +1,3 @@
+#/bin/bash
+
+./makedot.bash ../SmartTrader/tree.xml ../SmartTrader/graph/
